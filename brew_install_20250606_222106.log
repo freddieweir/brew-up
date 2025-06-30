@@ -1,327 +1,0 @@
-[2025-06-06 22:21:06] 🚀 Starting Brew Apps Installation Script...
-[2025-06-06 22:21:06] 💻 Detected OS: macos
-[2025-06-06 22:21:06] ✅ Homebrew is already installed!
-[2025-06-06 22:21:06] ℹ️ Updating Homebrew...
-[2025-06-06 22:21:19] ✅ Homebrew updated successfully!
-[2025-06-06 22:21:19] 📦 Installing Homebrew formulae (CLI tools)...
-[2025-06-06 22:21:19] 📦 Installing: aom
-Warning: aom 3.12.1 is already installed and up-to-date.
-To reinstall 3.12.1, run:
-  brew reinstall aom
-[2025-06-06 22:21:20] ✅ Successfully installed: aom
-[2025-06-06 22:21:20] 📦 Installing: aribb24
-Warning: aribb24 1.0.4 is already installed and up-to-date.
-To reinstall 1.0.4, run:
-  brew reinstall aribb24
-[2025-06-06 22:21:21] ✅ Successfully installed: aribb24
-[2025-06-06 22:21:21] 📦 Installing: autoconf
-Warning: autoconf 2.72 is already installed and up-to-date.
-To reinstall 2.72, run:
-  brew reinstall autoconf
-[2025-06-06 22:21:22] ✅ Successfully installed: autoconf
-[2025-06-06 22:21:22] 📦 Installing: bpytop
-Warning: bpytop 1.0.68 is already installed and up-to-date.
-To reinstall 1.0.68, run:
-  brew reinstall bpytop
-[2025-06-06 22:21:23] ✅ Successfully installed: bpytop
-[2025-06-06 22:21:23] 📦 Installing: brotli
-Warning: brotli 1.1.0 is already installed and up-to-date.
-To reinstall 1.1.0, run:
-  brew reinstall brotli
-[2025-06-06 22:21:24] ✅ Successfully installed: brotli
-[2025-06-06 22:21:24] 📦 Installing: c-ares
-Warning: c-ares 1.34.5 is already installed and up-to-date.
-To reinstall 1.34.5, run:
-  brew reinstall c-ares
-[2025-06-06 22:21:25] ✅ Successfully installed: c-ares
-[2025-06-06 22:21:25] 📦 Installing: ca-certificates
-Warning: ca-certificates 2025-05-20 is already installed and up-to-date.
-To reinstall 2025-05-20, run:
-  brew reinstall ca-certificates
-[2025-06-06 22:21:26] ✅ Successfully installed: ca-certificates
-[2025-06-06 22:21:26] 📦 Installing: cairo
-Warning: cairo 1.18.4 is already installed and up-to-date.
-To reinstall 1.18.4, run:
-  brew reinstall cairo
-[2025-06-06 22:21:27] ✅ Successfully installed: cairo
-[2025-06-06 22:21:27] 📦 Installing: certifi
-Warning: certifi 2025.4.26 is already installed and up-to-date.
-To reinstall 2025.4.26, run:
-  brew reinstall certifi
-[2025-06-06 22:21:28] ✅ Successfully installed: certifi
-[2025-06-06 22:21:28] 📦 Installing: cffi
-Warning: cffi 1.17.1_1 is already installed and up-to-date.
-To reinstall 1.17.1_1, run:
-  brew reinstall cffi
-[2025-06-06 22:21:29] ✅ Successfully installed: cffi
-[2025-06-06 22:21:29] 📦 Installing: cjson
-Warning: cjson 1.7.18 is already installed and up-to-date.
-To reinstall 1.7.18, run:
-  brew reinstall cjson
-[2025-06-06 22:21:30] ✅ Successfully installed: cjson
-[2025-06-06 22:21:30] 📦 Installing: cmake
-Warning: Treating cmake as a formula. For the cask, use homebrew/cask/cmake or specify the `--cask` flag. To silence this message, use the `--formula` flag.
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             ##########################################################################                          75.6%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             -=#=#   #    #                                                                                           -=O#- #   #     #                                                                                                                                                                                             0.0%                                                                                                     0.4%#                                                                                                    1.2%##                                                                                                   3.0%######                                                                                               6.8%###########                                                                                         12.1%###############                                                                                     16.2%###################                                                                                 19.9%##########################                                                                          27.2%##################################                                                                  35.0%##########################################                                                          43.5%###################################################                                                 52.1%###########################################################                                         61.1%####################################################################                                70.1%######################################################################                              72.4%#########################################################################                           75.2%############################################################################                        78.0%####################################################################################                86.1%###########################################################################################         92.9%################################################################################################## 100.0%
-[2025-06-06 22:21:36] ✅ Successfully installed: cmake
-[2025-06-06 22:21:36] 📦 Installing: icu4c@77
-Warning: icu4c@77 77.1 is already installed and up-to-date.
-To reinstall 77.1, run:
-  brew reinstall icu4c@77
-[2025-06-06 22:21:37] ✅ Successfully installed: icu4c@77
-[2025-06-06 22:21:37] 📦 Installing: imath
-Warning: imath 3.1.12 is already installed and up-to-date.
-To reinstall 3.1.12, run:
-  brew reinstall imath
-[2025-06-06 22:21:38] ✅ Successfully installed: imath
-[2025-06-06 22:21:38] 📦 Installing: jpeg-turbo
-Warning: jpeg-turbo 3.1.0 is already installed and up-to-date.
-To reinstall 3.1.0, run:
-  brew reinstall jpeg-turbo
-[2025-06-06 22:21:39] ✅ Successfully installed: jpeg-turbo
-[2025-06-06 22:21:39] 📦 Installing: jpeg-xl
-Warning: jpeg-xl 0.11.1_1 is already installed and up-to-date.
-To reinstall 0.11.1_1, run:
-  brew reinstall jpeg-xl
-[2025-06-06 22:21:40] ✅ Successfully installed: jpeg-xl
-[2025-06-06 22:21:40] 📦 Installing: lame
-Warning: lame 3.100 is already installed and up-to-date.
-To reinstall 3.100, run:
-  brew reinstall lame
-[2025-06-06 22:21:41] ✅ Successfully installed: lame
-[2025-06-06 22:21:41] 📦 Installing: ldns
-Warning: ldns 1.8.4 is already installed and up-to-date.
-To reinstall 1.8.4, run:
-  brew reinstall ldns
-[2025-06-06 22:21:42] ✅ Successfully installed: ldns
-[2025-06-06 22:21:42] 📦 Installing: leptonica
-Warning: leptonica 1.85.0 is already installed and up-to-date.
-To reinstall 1.85.0, run:
-  brew reinstall leptonica
-[2025-06-06 22:21:43] ✅ Successfully installed: leptonica
-[2025-06-06 22:21:43] 📦 Installing: libarchive
-Warning: libarchive 3.8.1 is already installed and up-to-date.
-To reinstall 3.8.1, run:
-  brew reinstall libarchive
-[2025-06-06 22:21:44] ✅ Successfully installed: libarchive
-[2025-06-06 22:21:44] 📦 Installing: libass
-Warning: libass 0.17.3 is already installed and up-to-date.
-To reinstall 0.17.3, run:
-  brew reinstall libass
-[2025-06-06 22:21:45] ✅ Successfully installed: libass
-[2025-06-06 22:21:45] 📦 Installing: libb2
-Warning: libb2 0.98.1 is already installed and up-to-date.
-To reinstall 0.98.1, run:
-  brew reinstall libb2
-[2025-06-06 22:21:46] ✅ Successfully installed: libb2
-[2025-06-06 22:21:46] 📦 Installing: libbluray
-Warning: libbluray 1.3.4 is already installed and up-to-date.
-To reinstall 1.3.4, run:
-  brew reinstall libbluray
-[2025-06-06 22:21:47] ✅ Successfully installed: libbluray
-[2025-06-06 22:21:47] 📦 Installing: libcbor
-Warning: libcbor 0.12.0 is already installed and up-to-date.
-To reinstall 0.12.0, run:
-  brew reinstall libcbor
-[2025-06-06 22:21:48] ✅ Successfully installed: libcbor
-[2025-06-06 22:21:48] 📦 Installing: libvpx
-Warning: libvpx 1.15.1 is already installed and up-to-date.
-To reinstall 1.15.1, run:
-  brew reinstall libvpx
-[2025-06-06 22:21:49] ✅ Successfully installed: libvpx
-[2025-06-06 22:21:49] 📦 Installing: libx11
-Warning: libx11 1.8.12 is already installed and up-to-date.
-To reinstall 1.8.12, run:
-  brew reinstall libx11
-[2025-06-06 22:21:50] ✅ Successfully installed: libx11
-[2025-06-06 22:21:50] 📦 Installing: libxau
-Warning: libxau 1.0.12 is already installed and up-to-date.
-To reinstall 1.0.12, run:
-  brew reinstall libxau
-[2025-06-06 22:21:52] ✅ Successfully installed: libxau
-[2025-06-06 22:21:52] 📦 Installing: libxcb
-Warning: libxcb 1.17.0 is already installed and up-to-date.
-To reinstall 1.17.0, run:
-  brew reinstall libxcb
-[2025-06-06 22:21:53] ✅ Successfully installed: libxcb
-[2025-06-06 22:21:53] 📦 Installing: libxdmcp
-Warning: libxdmcp 1.1.5 is already installed and up-to-date.
-To reinstall 1.1.5, run:
-  brew reinstall libxdmcp
-[2025-06-06 22:21:54] ✅ Successfully installed: libxdmcp
-[2025-06-06 22:21:54] 📦 Installing: libxext
-Warning: libxext 1.3.6 is already installed and up-to-date.
-To reinstall 1.3.6, run:
-  brew reinstall libxext
-[2025-06-06 22:21:54] ✅ Successfully installed: libxext
-[2025-06-06 22:21:54] 📦 Installing: libxrender
-Warning: libxrender 0.9.12 is already installed and up-to-date.
-To reinstall 0.9.12, run:
-  brew reinstall libxrender
-[2025-06-06 22:21:55] ✅ Successfully installed: libxrender
-[2025-06-06 22:21:55] 📦 Installing: little-cms2
-Warning: little-cms2 2.17 is already installed and up-to-date.
-To reinstall 2.17, run:
-  brew reinstall little-cms2
-[2025-06-06 22:21:56] ✅ Successfully installed: little-cms2
-[2025-06-06 22:21:56] 📦 Installing: lolcat
-Warning: lolcat 100.0.1 is already installed and up-to-date.
-To reinstall 100.0.1, run:
-  brew reinstall lolcat
-[2025-06-06 22:21:57] ✅ Successfully installed: lolcat
-[2025-06-06 22:21:57] 📦 Installing: lz4
-Warning: lz4 1.10.0 is already installed and up-to-date.
-To reinstall 1.10.0, run:
-  brew reinstall lz4
-[2025-06-06 22:21:58] ✅ Successfully installed: lz4
-[2025-06-06 22:21:58] 📦 Installing: lzo
-Warning: lzo 2.10 is already installed and up-to-date.
-To reinstall 2.10, run:
-  brew reinstall lzo
-[2025-06-06 22:21:59] ✅ Successfully installed: lzo
-[2025-06-06 22:21:59] 📦 Installing: pyenv
-Warning: pyenv 2.6.1 is already installed and up-to-date.
-To reinstall 2.6.1, run:
-  brew reinstall pyenv
-[2025-06-06 22:22:01] ✅ Successfully installed: pyenv
-[2025-06-06 22:22:01] 📦 Installing: pyenv-virtualenv
-Warning: pyenv-virtualenv 1.2.4 is already installed and up-to-date.
-To reinstall 1.2.4, run:
-  brew reinstall pyenv-virtualenv
-[2025-06-06 22:22:02] ✅ Successfully installed: pyenv-virtualenv
-[2025-06-06 22:22:02] 📦 Installing: python-tk@3.13
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             ###########                                                                                         11.6%################################################################################################## 100.0%
-[2025-06-06 22:22:04] ✅ Successfully installed: python-tk@3.13
-[2025-06-06 22:22:04] 📦 Installing: python@3.10
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                                                                                                                                  0.0%                                                                                                     0.5%#                                                                                                    1.3%###                                                                                                  3.7%########                                                                                             8.9%###############                                                                                     16.2%######################                                                                              23.4%###############################                                                                     32.2%########################################                                                            41.1%#################################################                                                   50.5%##########################################################                                          60.2%######################################################################                              71.4%###############################################################################                     81.5%############################################################################################        94.2%################################################################################################## 100.0%
-[2025-06-06 22:22:16] ✅ Successfully installed: python@3.10
-[2025-06-06 22:22:17] 📦 Installing: python@3.12
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             -=#=#   #    #                                                                                                                                                                                                0.2%                                                                                                     0.8%##                                                                                                   2.5%######                                                                                               6.1%#############                                                                                       13.8%############################                                                                        29.2%###################################################                                                 52.9%#########################################################################                           75.1%################################################################################################    98.2%################################################################################################## 100.0%
-Warning: These files were overwritten during the `brew link` step:
-[2025-06-06 22:24:14] ✅ Successfully installed: python@3.12
-[2025-06-06 22:24:14] 📦 Installing: python@3.13
-Warning: python@3.13 3.13.4 is already installed and up-to-date.
-To reinstall 3.13.4, run:
-  brew reinstall python@3.13
-[2025-06-06 22:24:15] ✅ Successfully installed: python@3.13
-[2025-06-06 22:24:15] 📦 Installing: rav1e
-Warning: rav1e 0.8.0 is already installed and up-to-date.
-To reinstall 0.8.0, run:
-  brew reinstall rav1e
-[2025-06-06 22:24:16] ✅ Successfully installed: rav1e
-[2025-06-06 22:24:16] 📦 Installing: readline
-Warning: readline 8.2.13 is already installed and up-to-date.
-To reinstall 8.2.13, run:
-  brew reinstall readline
-[2025-06-06 22:24:17] ✅ Successfully installed: readline
-[2025-06-06 22:24:17] 📦 Installing: rubberband
-Warning: rubberband 4.0.0 is already installed and up-to-date.
-To reinstall 4.0.0, run:
-  brew reinstall rubberband
-[2025-06-06 22:24:18] ✅ Successfully installed: rubberband
-[2025-06-06 22:24:18] 📦 Installing: sdl2
-Warning: sdl2 2.32.8 is already installed and up-to-date.
-To reinstall 2.32.8, run:
-  brew reinstall sdl2
-[2025-06-06 22:24:19] ✅ Successfully installed: sdl2
-[2025-06-06 22:24:19] 📦 Installing: snappy
-Warning: snappy 1.2.2 is already installed and up-to-date.
-To reinstall 1.2.2, run:
-  brew reinstall snappy
-[2025-06-06 22:24:20] ✅ Successfully installed: snappy
-[2025-06-06 22:24:20] 📦 Installing: speex
-Warning: speex 1.2.1 is already installed and up-to-date.
-To reinstall 1.2.1, run:
-  brew reinstall speex
-[2025-06-06 22:24:21] ✅ Successfully installed: speex
-[2025-06-06 22:24:21] 📦 Installing: git
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             ###################################################                                                 52.2%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             -=#=#   #    #                                                                                                                                                                                                0.1%                                                                                                     0.3%#                                                                                                    1.2%##                                                                                                   2.6%#####                                                                                                6.1%###########                                                                                         11.3%##################                                                                                  19.0%###########################                                                                         27.6%###################################                                                                 36.4%##############################################                                                      47.5%##########################################################                                          59.5%#####################################################################                               71.3%##################################################################################                  84.2%###############################################################################################     97.9%################################################################################################## 100.0%
-[2025-06-06 22:24:25] ✅ Successfully installed: git
-[2025-06-06 22:24:25] 📦 Installing: curl
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ##########################################################################                          76.0%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             #                                                                                                    1.1%################                                                                                    16.6%#####################################################                                               54.1%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             ##                                                                                                   2.6%###################################                                                                 35.9%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                                                                                                                                  0.3%####                                                                                                 4.6%###########                                                                                         11.6%#################################                                                                   33.8%######################################################################                              71.7%################################################################################################## 100.0%
-[2025-06-06 22:24:32] ✅ Successfully installed: curl
-[2025-06-06 22:24:32] 📦 Installing: wget
-Warning: wget 1.25.0 is already installed and up-to-date.
-To reinstall 1.25.0, run:
-  brew reinstall wget
-[2025-06-06 22:24:33] ✅ Successfully installed: wget
-[2025-06-06 22:24:33] 📦 Installing: tree
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             #######                                                                                              7.2%################################################################################################## 100.0%
-[2025-06-06 22:24:36] ✅ Successfully installed: tree
-[2025-06-06 22:24:36] 📦 Installing: htop
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             -=#=#   #    #                                                                                                                                                                                                0.8%###                                                                                                  3.5%#########                                                                                            9.9%#####################                                                                               21.8%#########################################                                                           42.7%###########################################################                                         61.1%###################################################################################                 85.4%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             ##                                                                                                   2.5%################################################                                                    49.7%################################################################################################## 100.0%
-[2025-06-06 22:24:41] ✅ Successfully installed: htop
-[2025-06-06 22:24:41] 📦 Installing: jq
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                                                                                                                                  0.3%################                                                                                    17.0%####################################################                                                53.3%################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             -=#=#   #    #                                                                                           #######                                                                                              7.2%#######################                                                                             24.1%########################################################################                            73.6%################################################################################################## 100.0%
-[2025-06-06 22:24:45] ✅ Successfully installed: jq
-[2025-06-06 22:24:45] 📦 Installing: node
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                                                                                                                                  0.1%                                                                                                     0.4%                                                                                                     1.0%##                                                                                                   2.5%#####                                                                                                6.1%#############                                                                                       13.5%##########################                                                                          27.5%##########################################                                                          43.1%#########################################################                                           58.8%##########################################################################                          76.5%#############################################################################################       95.2%################################################################################################## 100.0%
-Warning: The post-install step did not complete successfully
-[2025-06-06 22:24:51] ❌ Failed to install: node
-[2025-06-06 22:24:51] 📦 Installing: npm
-Warning: node 24.1.0 is already installed and up-to-date.
-To reinstall 24.1.0, run:
-  brew reinstall node
-[2025-06-06 22:24:52] ✅ Successfully installed: npm
-[2025-06-06 22:24:52] 📦 Installing: yarn
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                                                                                                                                  0.4%#####                                                                                                5.7%################                                                                                    17.1%##########################################                                                          43.3%################################################################################################## 100.0%
-[2025-06-06 22:24:55] ✅ Successfully installed: yarn
-[2025-06-06 22:24:55] 📦 Installing: docker
-Warning: Treating docker as a formula. For the cask, use homebrew/cask/docker or specify the `--cask` flag. To silence this message, use the `--formula` flag.
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               ################################################################################################## 100.0%
-#=O#- #                                                                                                  ##O=#   #                                                                                                #=#=-#   #                                                                                               -#O#-  #   #                                                                                             #                                                                                                    1.6%###########################################################################################         93.5%################################################################################################## 100.0%
-
-[2025-06-06 22:24:57] ❌ Failed to install: docker
-[2025-06-06 22:24:57] 📦 Installing: docker-compose
-
-[2025-06-06 22:24:58] ❌ Failed to install: docker-compose
-[2025-06-06 22:24:58] ⚠️ Failed formulae installations:
-[2025-06-06 22:24:58] 💻 Installing Homebrew casks (GUI applications)...
-[2025-06-06 22:24:58] 💻 Installing: 1password-cli
-
-[2025-06-06 22:24:58] ❌ Failed to install: 1password-cli
-[2025-06-06 22:24:58] 💻 Installing: alt-tab
-#=O#- #                                                                                                                                                                                                       0.0%                                                                                                     0.5%#                                                                                                    1.6%###                                                                                                  4.0%########                                                                                             8.5%###########                                                                                         11.6%##################                                                                                  19.2%###########################                                                                         28.1%###################################                                                                 36.4%###########################################                                                         44.3%######################################################                                              55.5%#############################################################                                       62.7%#######################################################################                             73.1%#################################################################################                   83.5%##############################################################################################      96.0%################################################################################################## 100.0%
-[2025-06-06 22:25:04] ✅ Successfully installed: alt-tab
-[2025-06-06 22:25:04] 💻 Installing: chromium
-#=O#- #                                                                                                  ################################################################################################## 100.0%
-Error: SIGHUP
-/opt/homebrew/Library/Homebrew/system_command.rb:284:in 'Thread#join'
-/opt/homebrew/Library/Homebrew/system_command.rb:284:in 'SystemCommand#each_output_line'
-/opt/homebrew/Library/Homebrew/system_command.rb:51:in 'SystemCommand#run!'
-/opt/homebrew/Library/Homebrew/system_command.rb:38:in 'SystemCommand.run'
-/opt/homebrew/Library/Homebrew/system_command.rb:24:in 'SystemCommand::Mixin#system_command'
-/opt/homebrew/Library/Homebrew/extend/pathname.rb:505:in 'Pathname#zipinfo'
-/opt/homebrew/Library/Homebrew/unpack_strategy/jar.rb:19:in 'UnpackStrategy::Jar.can_extract?'
-/opt/homebrew/Library/Homebrew/unpack_strategy.rb:95:in 'block in UnpackStrategy.from_magic'
-/opt/homebrew/Library/Homebrew/unpack_strategy.rb:95:in 'Array#each'
-/opt/homebrew/Library/Homebrew/unpack_strategy.rb:95:in 'Enumerable#find'
-/opt/homebrew/Library/Homebrew/unpack_strategy.rb:95:in 'UnpackStrategy.from_magic'
-/opt/homebrew/Library/Homebrew/unpack_strategy.rb:110:in 'UnpackStrategy.detect'
-/opt/homebrew/Library/Homebrew/cask/installer.rb:256:in 'Cask::Installer#primary_container'
-/opt/homebrew/Library/Homebrew/cask/installer.rb:377:in 'Cask::Installer#cask_and_formula_dependencies'
-/opt/homebrew/Library/Homebrew/cask/installer.rb:402:in 'Cask::Installer#satisfy_cask_and_formula_dependencies'
-/opt/homebrew/Library/Homebrew/cask/installer.rb:115:in 'Cask::Installer#fetch'
-/opt/homebrew/Library/Homebrew/cask/upgrade.rb:202:in 'Cask::Upgrade.upgrade_cask'
-/opt/homebrew/Library/Homebrew/cask/upgrade.rb:123:in 'block in Cask::Upgrade.upgrade_casks'
-/opt/homebrew/Library/Homebrew/cask/upgrade.rb:122:in 'Array#each'
-/opt/homebrew/Library/Homebrew/cask/upgrade.rb:122:in 'Cask::Upgrade.upgrade_casks'
-/opt/homebrew/Library/Homebrew/cmd/install.rb:262:in 'Homebrew::Cmd::InstallCmd#run'
-/opt/homebrew/Library/Homebrew/brew.rb:95:in '<main>'
-[1mPlease report this issue:[0m
-  [4mhttps://docs.brew.sh/Troubleshooting[24m
