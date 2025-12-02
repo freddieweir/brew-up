@@ -12,6 +12,7 @@ set -e
 # PARSE ARGUMENTS
 # =============================================================================
 DRY_RUN=false
+AUTO_CONFIRM=false
 
 while [[ $# -gt 0 ]]; do
   case $1 in
@@ -19,11 +20,16 @@ while [[ $# -gt 0 ]]; do
       DRY_RUN=true
       shift
       ;;
+    --yes|-y)
+      AUTO_CONFIRM=true
+      shift
+      ;;
     --help|-h)
       echo "Usage: $0 [OPTIONS]"
       echo ""
       echo "Options:"
       echo "  --dry-run, -n    Preview what would be installed without making changes"
+      echo "  --yes, -y        Skip confirmation prompt (for automation)"
       echo "  --help, -h       Show this help message"
       echo ""
       echo "Note: Cask applications are macOS-only and will be skipped on Linux"
@@ -156,6 +162,47 @@ cask_apps=(
   # Security
   mozilla-vpn               # VPN client
 )
+
+# =============================================================================
+# CONFIRMATION PROMPT
+# =============================================================================
+if ! $DRY_RUN && ! $AUTO_CONFIRM; then
+  # Count what will be installed
+  to_install_formulae=0
+  to_install_casks=0
+
+  for formula in "${formulae[@]}"; do
+    formula_name=$(echo "$formula" | awk '{print $1}')
+    if ! brew list "$formula_name" &>/dev/null; then
+      ((to_install_formulae++)) || true
+    fi
+  done
+
+  for app in "${cask_apps[@]}"; do
+    app_name=$(echo "$app" | awk '{print $1}')
+    if ! brew list --cask "$app_name" &>/dev/null; then
+      ((to_install_casks++)) || true
+    fi
+  done
+
+  if [[ $to_install_formulae -gt 0 || $to_install_casks -gt 0 ]]; then
+    echo ""
+    echo "📋 Will install:"
+    echo "   - $to_install_formulae formulae"
+    echo "   - $to_install_casks cask applications"
+    echo ""
+    read -p "Proceed with installation? [y/N] " -n 1 -r
+    echo ""
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+      echo "❌ Installation cancelled"
+      exit 0
+    fi
+  else
+    echo ""
+    echo "✅ All packages already installed!"
+    exit 0
+  fi
+fi
 
 # =============================================================================
 # INSTALL FORMULAE
