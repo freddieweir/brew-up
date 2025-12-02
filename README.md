@@ -39,6 +39,16 @@ Preview what would be installed without making changes:
 ./setup.sh -n
 ```
 
+### Skip Confirmation (Automation)
+
+For CI/CD or automation, skip the interactive confirmation prompt:
+
+```bash
+./setup.sh --yes
+# or
+./setup.sh -y
+```
+
 ### Individual Scripts
 
 Run specific setup steps:
@@ -128,4 +138,5 @@ To add or remove packages, edit `scripts/03-install-packages.sh`:
 
 - All scripts are idempotent (safe to run multiple times)
 - Scripts will skip already-installed packages
+- Interactive confirmation prompt before installing (use `--yes` to skip)
 - Do NOT run with `sudo` - Homebrew doesn't support root installation

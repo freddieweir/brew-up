@@ -11,12 +11,14 @@
 #   ./setup.sh              # Full setup
 #   ./setup.sh --dry-run    # Preview package installations
 #   ./setup.sh -n           # Short form of --dry-run
+#   ./setup.sh --yes        # Skip confirmation prompt
 # =============================================================================
 
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DRY_RUN=""
+AUTO_CONFIRM=""
 
 # =============================================================================
 # PARSE ARGUMENTS
@@ -27,6 +29,10 @@ while [[ $# -gt 0 ]]; do
       DRY_RUN="--dry-run"
       shift
       ;;
+    --yes|-y)
+      AUTO_CONFIRM="--yes"
+      shift
+      ;;
     --help|-h)
       echo "Usage: $0 [OPTIONS]"
       echo ""
@@ -34,12 +40,13 @@ while [[ $# -gt 0 ]]; do
       echo ""
       echo "Options:"
       echo "  --dry-run, -n    Preview package installations without making changes"
+      echo "  --yes, -y        Skip confirmation prompt (for automation)"
       echo "  --help, -h       Show this help message"
       echo ""
       echo "Individual scripts:"
       echo "  ./scripts/01-install-homebrew.sh   Install Homebrew only"
       echo "  ./scripts/02-install-ohmyzsh.sh    Install Oh My Zsh only"
-      echo "  ./scripts/03-install-packages.sh   Install packages only (supports --dry-run)"
+      echo "  ./scripts/03-install-packages.sh   Install packages only (supports --dry-run, --yes)"
       exit 0
       ;;
     *)
@@ -87,7 +94,7 @@ echo ""
 # Step 3: Install Packages
 echo "📋 Step 3/3: Packages"
 echo "----------------------------------------"
-"$SCRIPT_DIR/scripts/03-install-packages.sh" $DRY_RUN
+"$SCRIPT_DIR/scripts/03-install-packages.sh" $DRY_RUN $AUTO_CONFIRM
 echo ""
 
 # =============================================================================
