@@ -25,6 +25,8 @@ while [[ $# -gt 0 ]]; do
       echo "Options:"
       echo "  --dry-run, -n    Preview what would be installed without making changes"
       echo "  --help, -h       Show this help message"
+      echo ""
+      echo "Note: Cask applications are macOS-only and will be skipped on Linux"
       exit 0
       ;;
     *)
@@ -39,6 +41,25 @@ if $DRY_RUN; then
   echo "🔍 DRY RUN MODE - No changes will be made"
   echo ""
 fi
+
+# =============================================================================
+# OS DETECTION
+# =============================================================================
+OS_TYPE="$(uname -s)"
+IS_MACOS=false
+IS_LINUX=false
+
+case "$OS_TYPE" in
+  Darwin)
+    IS_MACOS=true
+    ;;
+  Linux)
+    IS_LINUX=true
+    ;;
+  *)
+    echo "⚠️  Unknown OS: $OS_TYPE - proceeding with caution"
+    ;;
+esac
 
 # =============================================================================
 # SECURITY CHECK
@@ -159,26 +180,32 @@ for formula in "${formulae[@]}"; do
 done
 
 # =============================================================================
-# INSTALL CASK APPLICATIONS
+# INSTALL CASK APPLICATIONS (macOS only)
 # =============================================================================
-echo ""
-echo "🖥️  Cask applications (GUI apps)..."
-echo "   Total: ${#cask_apps[@]} applications"
-echo ""
+if $IS_LINUX; then
+  echo ""
+  echo "🐧 Skipping cask applications on Linux (macOS-only feature)"
+  echo "   Formulae have been installed. Consider apt/dnf/pacman for GUI apps."
+else
+  echo ""
+  echo "🖥️  Cask applications (GUI apps)..."
+  echo "   Total: ${#cask_apps[@]} applications"
+  echo ""
 
-for app in "${cask_apps[@]}"; do
-  # Extract app name (remove inline comments)
-  app_name=$(echo "$app" | awk '{print $1}')
+  for app in "${cask_apps[@]}"; do
+    # Extract app name (remove inline comments)
+    app_name=$(echo "$app" | awk '{print $1}')
 
-  if brew list --cask "$app_name" &>/dev/null; then
-    echo "  ✅ $app_name (already installed)"
-  elif $DRY_RUN; then
-    echo "  📋 $app_name (would install)"
-  else
-    echo "  ⬇️  Installing $app_name..."
-    brew install --cask "$app_name"
-  fi
-done
+    if brew list --cask "$app_name" &>/dev/null; then
+      echo "  ✅ $app_name (already installed)"
+    elif $DRY_RUN; then
+      echo "  📋 $app_name (would install)"
+    else
+      echo "  ⬇️  Installing $app_name..."
+      brew install --cask "$app_name"
+    fi
+  done
+fi
 
 # =============================================================================
 # SUMMARY

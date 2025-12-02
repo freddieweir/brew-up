@@ -1,6 +1,6 @@
 # brew-up
 
-Automated setup scripts for new macOS VMs. Installs Homebrew, Oh My Zsh, and essential packages.
+Automated setup scripts for new macOS/Linux machines. Installs Homebrew, Oh My Zsh, and essential packages.
 
 ## Quick Start
 
@@ -120,12 +120,13 @@ To add or remove packages, edit `scripts/03-install-packages.sh`:
 
 ## Requirements
 
-- macOS (Apple Silicon or Intel)
+- macOS (Apple Silicon or Intel) or Linux
 - Internet connection
-- Admin privileges (for some cask installations)
+- Admin privileges (for some cask installations on macOS)
 
 ## Notes
 
 - All scripts are idempotent (safe to run multiple times)
 - Scripts will skip already-installed packages
 - Do NOT run with `sudo` - Homebrew doesn't support root installation
+- **Linux Support**: Cask applications (GUI apps) are macOS-only and will be automatically skipped on Linux. Use your distribution's package manager (apt/dnf/pacman) for GUI applications instead
