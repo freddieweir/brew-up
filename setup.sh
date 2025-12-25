@@ -6,6 +6,7 @@
 # 1. Install Homebrew (if not present)
 # 2. Install Oh My Zsh (if not present)
 # 3. Install formulae and casks
+# 4. Apply post-install configurations (SSH, zsh plugins)
 #
 # Usage:
 #   ./setup.sh              # Full setup
@@ -44,9 +45,10 @@ while [[ $# -gt 0 ]]; do
       echo "  --help, -h       Show this help message"
       echo ""
       echo "Individual scripts:"
-      echo "  ./scripts/01-install-homebrew.sh   Install Homebrew only"
-      echo "  ./scripts/02-install-ohmyzsh.sh    Install Oh My Zsh only"
-      echo "  ./scripts/03-install-packages.sh   Install packages only (supports --dry-run, --yes)"
+      echo "  ./scripts/01-install-homebrew.sh     Install Homebrew only"
+      echo "  ./scripts/02-install-ohmyzsh.sh      Install Oh My Zsh only"
+      echo "  ./scripts/03-install-packages.sh     Install packages only (supports --dry-run, --yes)"
+      echo "  ./scripts/04-post-install-config.sh  Apply post-install configurations"
       exit 0
       ;;
     *)
@@ -73,7 +75,7 @@ echo "========================================"
 echo ""
 
 # Step 1: Install Homebrew
-echo "📦 Step 1/3: Homebrew"
+echo "Step 1/4: Homebrew"
 echo "----------------------------------------"
 "$SCRIPT_DIR/scripts/01-install-homebrew.sh"
 echo ""
@@ -86,16 +88,27 @@ elif [[ -d /usr/local/Homebrew ]]; then
 fi
 
 # Step 2: Install Oh My Zsh
-echo "🎨 Step 2/3: Oh My Zsh"
+echo "Step 2/4: Oh My Zsh"
 echo "----------------------------------------"
 "$SCRIPT_DIR/scripts/02-install-ohmyzsh.sh"
 echo ""
 
 # Step 3: Install Packages
-echo "📋 Step 3/3: Packages"
+echo "Step 3/4: Packages"
 echo "----------------------------------------"
 "$SCRIPT_DIR/scripts/03-install-packages.sh" $DRY_RUN $AUTO_CONFIRM
 echo ""
+
+# Step 4: Post-install Configuration
+if [[ -z "$DRY_RUN" ]]; then
+  echo "Step 4/4: Post-install Configuration"
+  echo "----------------------------------------"
+  "$SCRIPT_DIR/scripts/04-post-install-config.sh"
+  echo ""
+else
+  echo "Step 4/4: Post-install Configuration (skipped in dry-run)"
+  echo ""
+fi
 
 # =============================================================================
 # COMPLETE
@@ -103,10 +116,10 @@ echo ""
 echo "========================================"
 echo "🎉 Setup complete!"
 echo ""
-echo "💡 Next steps:"
-echo "   1. Restart your terminal for all changes to take effect"
-echo "   2. Explore Oh My Zsh themes: ~/.oh-my-zsh/themes/"
-echo "   3. Configure your apps as needed"
+echo "Next steps:"
+echo "  1. Restart your terminal for all changes to take effect"
+echo "  2. Enable SSH Agent in 1Password: Settings > Developer > SSH Agent"
+echo "  3. Configure your apps as needed"
 echo ""
 if [[ -n "$DRY_RUN" ]]; then
   echo "📋 Note: Packages were previewed only (--dry-run mode)"

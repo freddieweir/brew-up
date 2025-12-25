@@ -141,15 +141,16 @@ cask_apps=(
   brave-browser             # Chrome-based browser
   chromium                  # Open-source browser
   firefox                   # Mozilla Firefox
-  zen-browser               # Privacy-focused browser
+  zen                       # Privacy-focused browser
 
   # Productivity
+  bettertouchtool           # Keyboard/mouse customization
   iterm2                    # Terminal emulator
 
   # System Utilities
   appcleaner                # App uninstaller
   istat-menus               # System monitor menubar
-  jordanbaird-ice           # Menubar manager
+  jordanbaird-ice@beta      # Menubar manager
   jump-desktop-connect      # Remote desktop client
   linearmouse               # Mouse customization
   little-snitch             # Network monitor
